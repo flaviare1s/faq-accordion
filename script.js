@@ -74,34 +74,34 @@ function showAnswer() {
     })
 
     plus2El.addEventListener('click', () => {
-        if (answer1El.style.display === 'block') {
-            answer1El.style.display = 'none' 
+        if (answer2El.style.display === 'block') {
+            answer2El.style.display = 'none' 
         } else {
-            answer1El.style.display = 'block' 
+            answer2El.style.display = 'block' 
         }
         
-        if (minus1El.style.display === 'block') {
-            minus1El.style.display = 'none'
-            plus1El.style.display = 'block'
+        if (minus2El.style.display === 'block') {
+            minus2El.style.display = 'none'
+            plus2El.style.display = 'block'
         } else {
-            minus1El.style.display = 'block'
-            plus1El.style.display = 'none'
+            minus2El.style.display = 'block'
+            plus2El.style.display = 'none'
         }
     })
 
     minus2El.addEventListener('click', () => {
-        if (answer1El.style.display === 'block') {
-            answer1El.style.display = 'none' 
+        if (answer2El.style.display === 'block') {
+            answer2El.style.display = 'none' 
         } else {
-            answer1El.style.display = 'block' 
+            answer2El.style.display = 'block' 
         }
         
-        if (minus1El.style.display === 'block') {
-            minus1El.style.display = 'none'
-            plus1El.style.display = 'block'
+        if (minus2El.style.display === 'block') {
+            minus2El.style.display = 'none'
+            plus2El.style.display = 'block'
         } else {
-            minus1El.style.display = 'block'
-            plus1El.style.display = 'none'
+            minus2El.style.display = 'block'
+            plus2El.style.display = 'none'
         }
     })
 
@@ -127,34 +127,34 @@ function showAnswer() {
     })
 
     plus3El.addEventListener('click', () => {
-        if (answer1El.style.display === 'block') {
-            answer1El.style.display = 'none' 
+        if (answer3El.style.display === 'block') {
+            answer3El.style.display = 'none' 
         } else {
-            answer1El.style.display = 'block' 
+            answer3El.style.display = 'block' 
         }
         
-        if (minus1El.style.display === 'block') {
-            minus1El.style.display = 'none'
-            plus1El.style.display = 'block'
+        if (minus3El.style.display === 'block') {
+            minus3El.style.display = 'none'
+            plus3El.style.display = 'block'
         } else {
-            minus1El.style.display = 'block'
-            plus1El.style.display = 'none'
+            minus3El.style.display = 'block'
+            plus3El.style.display = 'none'
         }
     })
 
     minus3El.addEventListener('click', () => {
-        if (answer1El.style.display === 'block') {
-            answer1El.style.display = 'none' 
+        if (answer3El.style.display === 'block') {
+            answer3El.style.display = 'none' 
         } else {
-            answer1El.style.display = 'block' 
+            answer3El.style.display = 'block' 
         }
         
-        if (minus1El.style.display === 'block') {
-            minus1El.style.display = 'none'
-            plus1El.style.display = 'block'
+        if (minus3El.style.display === 'block') {
+            minus3El.style.display = 'none'
+            plus3El.style.display = 'block'
         } else {
-            minus1El.style.display = 'block'
-            plus1El.style.display = 'none'
+            minus3El.style.display = 'block'
+            plus3El.style.display = 'none'
         }
     })
 
@@ -180,34 +180,34 @@ function showAnswer() {
     })
 
     plus4El.addEventListener('click', () => {
-        if (answer1El.style.display === 'block') {
-            answer1El.style.display = 'none' 
+        if (answer4El.style.display === 'block') {
+            answer4El.style.display = 'none' 
         } else {
-            answer1El.style.display = 'block' 
+            answer4El.style.display = 'block' 
         }
         
-        if (minus1El.style.display === 'block') {
-            minus1El.style.display = 'none'
-            plus1El.style.display = 'block'
+        if (minus4El.style.display === 'block') {
+            minus4El.style.display = 'none'
+            plus4El.style.display = 'block'
         } else {
-            minus1El.style.display = 'block'
-            plus1El.style.display = 'none'
+            minus4El.style.display = 'block'
+            plus4El.style.display = 'none'
         }
     })
 
     minus4El.addEventListener('click', () => {
-        if (answer1El.style.display === 'block') {
-            answer1El.style.display = 'none' 
+        if (answer4El.style.display === 'block') {
+            answer4El.style.display = 'none' 
         } else {
-            answer1El.style.display = 'block' 
+            answer4El.style.display = 'block' 
         }
         
-        if (minus1El.style.display === 'block') {
-            minus1El.style.display = 'none'
-            plus1El.style.display = 'block'
+        if (minus4El.style.display === 'block') {
+            minus4El.style.display = 'none'
+            plus4El.style.display = 'block'
         } else {
-            minus1El.style.display = 'block'
-            plus1El.style.display = 'none'
+            minus4El.style.display = 'block'
+            plus4El.style.display = 'none'
         }
     })
 }
