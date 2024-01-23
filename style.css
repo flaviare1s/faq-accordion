@@ -65,7 +65,7 @@ p {
 }
 
 .question p:hover {
-    color: hsl(275, 100%, 97%);
+    color: #AD28EB;
 }
 
 .attribution {
