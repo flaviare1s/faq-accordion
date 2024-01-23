@@ -13,8 +13,13 @@ body {
     background-color: hsl(275, 100%, 97%);
     background-image: url(assets/images/background-pattern-mobile.svg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: top;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 40%;
 }
 
 .attribution {
@@ -30,6 +35,17 @@ body {
     font-weight: 600;
 }
 
-.bold {
-    font-weight: 700;
+@media screen and (min-width:500px) {
+    body {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        background-color: hsl(275, 100%, 97%);
+        background-image: url(assets/images/background-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+        background-attachment: fixed;
+    }
 }
+
