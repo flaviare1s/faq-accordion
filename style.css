@@ -108,11 +108,8 @@ p {
 }
 
 .answer {
-    margin-bottom: 30px;
-}
-
-#answer1, #answer2, #answer3, #answer4 {
     display: none;
+    margin-bottom: 30px;
 }
 
 
