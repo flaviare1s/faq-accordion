@@ -73,6 +73,38 @@ function showAnswer() {
         }
     })
 
+    plus2El.addEventListener('click', () => {
+        if (answer1El.style.display === 'block') {
+            answer1El.style.display = 'none' 
+        } else {
+            answer1El.style.display = 'block' 
+        }
+        
+        if (minus1El.style.display === 'block') {
+            minus1El.style.display = 'none'
+            plus1El.style.display = 'block'
+        } else {
+            minus1El.style.display = 'block'
+            plus1El.style.display = 'none'
+        }
+    })
+
+    minus2El.addEventListener('click', () => {
+        if (answer1El.style.display === 'block') {
+            answer1El.style.display = 'none' 
+        } else {
+            answer1El.style.display = 'block' 
+        }
+        
+        if (minus1El.style.display === 'block') {
+            minus1El.style.display = 'none'
+            plus1El.style.display = 'block'
+        } else {
+            minus1El.style.display = 'block'
+            plus1El.style.display = 'none'
+        }
+    })
+
     const questButton3El = document.querySelector('#questButton3')
     const answer3El = document.querySelector('#answer3')
     const minus3El = document.querySelector('#minus3')
@@ -91,6 +123,38 @@ function showAnswer() {
         } else {
             minus3El.style.display = 'block'
             plus3El.style.display = 'none'
+        }
+    })
+
+    plus3El.addEventListener('click', () => {
+        if (answer1El.style.display === 'block') {
+            answer1El.style.display = 'none' 
+        } else {
+            answer1El.style.display = 'block' 
+        }
+        
+        if (minus1El.style.display === 'block') {
+            minus1El.style.display = 'none'
+            plus1El.style.display = 'block'
+        } else {
+            minus1El.style.display = 'block'
+            plus1El.style.display = 'none'
+        }
+    })
+
+    minus3El.addEventListener('click', () => {
+        if (answer1El.style.display === 'block') {
+            answer1El.style.display = 'none' 
+        } else {
+            answer1El.style.display = 'block' 
+        }
+        
+        if (minus1El.style.display === 'block') {
+            minus1El.style.display = 'none'
+            plus1El.style.display = 'block'
+        } else {
+            minus1El.style.display = 'block'
+            plus1El.style.display = 'none'
         }
     })
 
@@ -115,7 +179,37 @@ function showAnswer() {
         }
     })
 
-    
+    plus4El.addEventListener('click', () => {
+        if (answer1El.style.display === 'block') {
+            answer1El.style.display = 'none' 
+        } else {
+            answer1El.style.display = 'block' 
+        }
+        
+        if (minus1El.style.display === 'block') {
+            minus1El.style.display = 'none'
+            plus1El.style.display = 'block'
+        } else {
+            minus1El.style.display = 'block'
+            plus1El.style.display = 'none'
+        }
+    })
+
+    minus4El.addEventListener('click', () => {
+        if (answer1El.style.display === 'block') {
+            answer1El.style.display = 'none' 
+        } else {
+            answer1El.style.display = 'block' 
+        }
+        
+        if (minus1El.style.display === 'block') {
+            minus1El.style.display = 'none'
+            plus1El.style.display = 'block'
+        } else {
+            minus1El.style.display = 'block'
+            plus1El.style.display = 'none'
+        }
+    })
 }
 
 showAnswer()
