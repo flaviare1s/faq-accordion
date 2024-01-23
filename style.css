@@ -53,6 +53,20 @@ p {
     font-weight: 700;
 }
 
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question p {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.question p:hover {
+    color: hsl(275, 100%, 97%);
+}
 
 .attribution {
     font-size: 11px;
