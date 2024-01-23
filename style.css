@@ -94,6 +94,10 @@ p {
 }
 
 .plus {
+    display: block;
+}
+
+.minus {
     display: none;
 }
 
@@ -102,17 +106,13 @@ p {
 }
 
 .answer {
-    display: block;
     margin-bottom: 30px;
 }
 
 #answer1, #answer2, #answer3, #answer4 {
-    display: block;
+    display: none;
 }
 
-.minus {
-    display: block;
-}
 
 @media screen and (min-width:500px) {
     body {
