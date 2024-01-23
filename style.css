@@ -18,6 +18,10 @@ body {
     background-attachment: fixed;
 }
 
+p {
+    padding: 10px;
+}
+
 .container {
     width: 90vw;
     height: 100vh;
@@ -46,6 +50,7 @@ body {
 .title h1 {
     flex-grow: 1;
     color: hsl(292, 42%, 14%);
+    font-weight: 700;
 }
 
 
