@@ -93,17 +93,15 @@ p {
     color: hsl(292, 16%, 49%);
 }
 
-.answer,
-
-.plus-visible {
+.plus {
     display: none;
 }
 
-.answer-visible {
+.answer {
     display: block;
 }
 
-.minus-visible {
+.minus {
     display: inline-block;
 }
 
