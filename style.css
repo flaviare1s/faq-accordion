@@ -19,21 +19,34 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 90vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
 }
 
 .card {
     background-color: hsl(0, 0%, 100%);
     align-items: center;
     margin: auto;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
+    width: 100%;
 }
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.title h1 {
+    flex-grow: 1;
+}
+
 
 .attribution {
     font-size: 11px;
