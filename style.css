@@ -93,12 +93,18 @@ p {
     color: hsl(292, 16%, 49%);
 }
 
-.minus {
+.answer,
+
+.plus-visible {
+    display: none;
+}
+
+.answer-visible {
     display: block;
 }
 
-.plus {
-    display: block;
+.minus-visible {
+    display: inline-block;
 }
 
 @media screen and (min-width:500px) {
