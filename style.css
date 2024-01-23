@@ -95,10 +95,12 @@ p {
 
 .plus {
     display: block;
+    cursor: pointer;
 }
 
 .minus {
     display: none;
+    cursor: pointer;
 }
 
 .question {

@@ -20,6 +20,38 @@ function showAnswer() {
         }
     })
 
+    plus1El.addEventListener('click', () => {
+        if (answer1El.style.display === 'block') {
+            answer1El.style.display = 'none' 
+        } else {
+            answer1El.style.display = 'block' 
+        }
+        
+        if (minus1El.style.display === 'block') {
+            minus1El.style.display = 'none'
+            plus1El.style.display = 'block'
+        } else {
+            minus1El.style.display = 'block'
+            plus1El.style.display = 'none'
+        }
+    })
+
+    minus1El.addEventListener('click', () => {
+        if (answer1El.style.display === 'block') {
+            answer1El.style.display = 'none' 
+        } else {
+            answer1El.style.display = 'block' 
+        }
+        
+        if (minus1El.style.display === 'block') {
+            minus1El.style.display = 'none'
+            plus1El.style.display = 'block'
+        } else {
+            minus1El.style.display = 'block'
+            plus1El.style.display = 'none'
+        }
+    })
+
     const questButton2El = document.querySelector('#questButton2')
     const answer2El = document.querySelector('#answer2')
     const minus2El = document.querySelector('#minus2')
@@ -82,6 +114,8 @@ function showAnswer() {
             plus4El.style.display = 'none'
         }
     })
+
+    
 }
 
 showAnswer()
