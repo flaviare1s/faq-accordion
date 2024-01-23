@@ -101,8 +101,12 @@ p {
     display: block;
 }
 
+#answer1 {
+    display: block;
+}
+
 .minus {
-    display: inline-block;
+    display: block;
 }
 
 @media screen and (min-width:500px) {
