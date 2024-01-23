@@ -93,6 +93,14 @@ p {
     color: hsl(292, 16%, 49%);
 }
 
+.minus {
+    display: block;
+}
+
+.plus {
+    display: block;
+}
+
 @media screen and (min-width:500px) {
     body {
         font-family: 'Work Sans', sans-serif;
