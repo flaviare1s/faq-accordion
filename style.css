@@ -101,7 +101,7 @@ p {
     display: block;
 }
 
-#answer1 {
+#answer1, #answer2, #answer3, #answer4 {
     display: block;
 }
 
