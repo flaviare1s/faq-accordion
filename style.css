@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
 
 * {
-    margin: 0px auto;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -16,6 +16,12 @@ body {
     background-position: top;
     background-size: contain;
     background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 p {
@@ -24,10 +30,6 @@ p {
 
 .container {
     width: 90vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .card {
